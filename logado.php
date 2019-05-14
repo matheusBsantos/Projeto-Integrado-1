@@ -1,8 +1,227 @@
-<?php
+<<!DOCTYPE html>
+<html lang="zxx">
+<head>
+	<title>Dança de rua </title>
+	<meta charset="UTF-8">
+	<meta name="description" content="EndGam Gaming Magazine Template">
+	<meta name="keywords" content="endGam,gGaming, magazine, html">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<!-- Favicon -->
+	<link href="img/favicon.ico" rel="shortcut icon"/>
 
-/* 
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
+	<!-- Google Font -->
+	<link href="https://fonts.googleapis.com/css?family=Roboto:400,400i,500,500i,700,700i,900,900i" rel="stylesheet">
 
+
+	<!-- Stylesheets -->
+	<link rel="stylesheet" href="css/bootstrap.min.css"/>
+	<link rel="stylesheet" href="css/font-awesome.min.css"/>
+	<link rel="stylesheet" href="css/slicknav.min.css"/>
+	<link rel="stylesheet" href="css/owl.carousel.min.css"/>
+	<link rel="stylesheet" href="css/magnific-popup.css"/>
+	<link rel="stylesheet" href="css/animate.css"/>
+
+	<!-- Main Stylesheets -->
+	<link rel="stylesheet" href="css/style.css"/>
+
+
+	<!--[if lt IE 9]>
+		  <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+	  <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+	<![endif]-->
+
+</head>
+<body>
+	<!-- Page Preloder -->
+	<div id="preloder">
+		<div class="loader"></div>
+	</div>
+
+	<!-- Header section -->
+	<header class="header-section">
+		<div class="header-warp">
+			<div class="header-social d-flex justify-content-end">
+				<p>Siga:</p>
+				<a href="#"><i class="fa fa-pinterest"></i></a>
+				<a href="#"><i class="fa fa-facebook"></i></a>
+				<a href="#"><i class="fa fa-twitter"></i></a>
+				
+			</div>
+			<div class="header-bar-warp d-flex">
+				<!-- site logo -->
+				<a href="home.html" class="site-logo">
+					<img src="./img/lg.png" alt="">
+				</a>
+				<nav class="top-nav-area w-100">
+					<div class="user-panel">
+						<a href="pagina_login.php">Logar</a> / <a href="cadastro.php">Registrar</a>
+					</div>
+					<!-- Menu -->
+					<ul class="main-menu primary-menu">
+						<li><a href="home.html">Início</a></li>
+						<li><a href="games.html">Eventos</a>
+							<ul class="sub-menu">
+								<li><a href="game-single.html">Game Singel</a></li>
+							</ul>
+						</li>
+						<li><a href="review.html">Praticar</a></li>
+						<li><a href="contact.html">Contato</a></li>
+                                                <li><a href="">Adicionar</a>
+							<ul class="sub-menu">
+								<li><a href="game-single.html">Adicionar um evento</a></li>
+                                                                
+							</ul>
+						</li>
+					</ul>
+				</nav>
+			</div>
+		</div>
+	</header>
+	<!-- Header section end -->
+
+
+	<!-- Hero section -->
+	<section class="hero-section overflow-hidden">
+		<div class="hero-slider owl-carousel">
+			<div class="hero-item set-bg d-flex align-items-center justify-content-center text-center" data-setbg="img/inicio1.jpg">
+				<div class="container">
+					<h2>Dança de Rua!</h2>
+					<p>Fusce erat dui, venenatis et erat in, vulputate dignissim lacus. Donec vitae tempus dolor,<br>sit amet elementum lorem. Ut cursus tempor turpis.</p>
+                                        <a href="#" class="site-btn">Leia mais! <img src="img/icons/double-arrow.png" alt="#"/></a>
+				</div>
+			</div>
+			<div class="hero-item set-bg d-flex align-items-center justify-content-center text-center" data-setbg="img/inicio4.jpg">
+				<div class="container">
+					<h2>Dança de Rua!</h2>
+					<p>Fusce erat dui, venenatis et erat in, vulputate dignissim lacus. Donec vitae tempus dolor,<br>sit amet elementum lorem. Ut cursus tempor turpis.</p>
+					<a href="#" class="site-btn">Leia mais!<img src="img/icons/double-arrow.png" alt="#"/></a>
+				</div>
+			</div>
+                    <div class="hero-item set-bg d-flex align-items-center justify-content-center text-center" data-setbg="img/inicio3.jpg">
+				<div class="container">
+					<h2>Dança de Rua!</h2>
+					<p>Fusce erat dui, venenatis et erat in, vulputate dignissim lacus. Donec vitae tempus dolor,<br>sit amet elementum lorem. Ut cursus tempor turpis.</p>
+                                        <a href="#" class="site-btn">Leia mais!<img src="img/icons/double-arrow.png" alt="#"/></a>
+				</div>
+			</div>
+                    <div class="hero-item set-bg d-flex align-items-center justify-content-center text-center" data-setbg="img/inicio2.jpg">
+				<div class="container">
+					<h2>Dança de Rua!</h2>
+					<p>Fusce erat dui, venenatis et erat in, vulputate dignissim lacus. Donec vitae tempus dolor,<br>sit amet elementum lorem. Ut cursus tempor turpis.</p>
+                                        <a href="#" class="site-btn">Leia mais!<img src="img/icons/double-arrow.png" alt="#"/></a>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!-- Hero section end-->
+
+
+	<!-- Intro section -->
+	<section class="intro-section">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-4">
+					<div class="intro-text-box text-box text-white">
+						<div class="top-meta">11.11.18  /  in <a href="">Games</a></div>
+						<h3>The best online game is out now!</h3>
+						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida....</p>
+						<a href="#" class="read-more">Read More  <img src="img/icons/double-arrow.png" alt="#"/></a>
+					</div>
+				</div>
+				<div class="col-md-4">
+					<div class="intro-text-box text-box text-white">
+						<div class="top-meta">11.11.18  /  in <a href="">Playstation</a></div>
+						<h3>Top 5 best games in november</h3>
+						<p>Ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum  labore suspendisse ultrices gravida....</p>
+						<a href="#" class="read-more">Read More  <img src="img/icons/double-arrow.png" alt="#"/></a>
+					</div>
+				</div>
+				<div class="col-md-4">
+					<div class="intro-text-box text-box text-white">
+						<div class="top-meta">11.11.18  /  in <a href="">Reviews</a></div>
+						<h3>Get this game at a promo price</h3>
+						<p>Sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida ncididunt ut labore ....</p>
+						<a href="#" class="read-more">Read More  <img src="img/icons/double-arrow.png" alt="#"/></a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!-- Intro section end -->
+
+
+	
+
+
+	<!-- Intro section -->
+	<section class="intro-video-section set-bg d-flex align-items-end " data-setbg="./img/imgyt.png">
+		<a href="https://www.youtube.com/watch?v=szJOx78jtXc" class="video-play-btn video-popup"><img src="img/icons/solid-right-arrow.png" alt="#"></a>
+		<div class="container">
+			<div class="video-text">
+				<h2>Video mostrando um pouco da Dança</h2>
+				
+			</div>
+		</div>
+	</section>
+	<!-- Intro section end -->
+
+
+	<!-- Featured section -->
+	<section class="featured-section">
+		<div class="featured-bg set-bg" data-setbg="img/imgsobre.jpg"></div>
+		<div class="featured-box">
+			<div class="text-box">
+				<div </div>
+				<h3>Porque se envolver na dança!</h3>
+				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliquamet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Vestibulum posuere porttitor justo id pellentesque. Proin id lacus feugiat, posuere erat sit amet, commodo ipsum. Donec pellentesque vestibulum metus...</p>
+				<a href="#" class="read-more">Read More  <img src="img/icons/double-arrow.png" alt="#"/></a>
+			</div>
+		</div>
+	</section>
+	<!-- Featured section end-->
+
+
+
+	<!-- Footer section -->
+	<footer class="footer-section">
+		<div class="container">
+			<div class="footer-left-pic">
+				<img src="" alt="">
+			</div>
+			<div class="footer-right-pic">
+				<img src="" alt="">
+			</div>
+			<a href="#" class="footer-logo">
+				<img src="./img/logo.png" alt="">
+			</a>
+			<ul class="main-menu footer-menu">
+				<li><a href="index.html">Início</a></li>
+				<li><a href="eventos.html">Eventos</a></li>
+				<li><a href="">Praticar</a></li>
+				<li><a href="contato.html">Contato</a></li>
+				
+			</ul>
+			<div class="footer-social d-flex justify-content-center">
+				<a href="#"><i class="fa fa-pinterest"></i></a>
+				<a href="#"><i class="fa fa-facebook"></i></a>
+				<a href="#"><i class="fa fa-twitter"></i></a>
+				<a href="#"><i class="fa fa-dribbble"></i></a>
+				<a href="#"><i class="fa fa-behance"></i></a>
+			</div>
+			<div class="copyright"><a href="">DDR</a> 2019 @ TODOS os direitos reservados</div>
+		</div>
+	</footer>
+	<!-- Footer section end -->
+
+
+	<!--====== Javascripts & Jquery ======-->
+	<script src="js/jquery-3.2.1.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+	<script src="js/jquery.slicknav.min.js"></script>
+	<script src="js/owl.carousel.min.js"></script>
+	<script src="js/jquery.sticky-sidebar.min.js"></script>
+	<script src="js/jquery.magnific-popup.min.js"></script>
+	<script src="js/main.js"></script>
+
+	</body>
+</html>
